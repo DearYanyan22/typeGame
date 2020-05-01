@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="jquery-3.4.1.min.js"></script>
+    
+
+  <title>Type Speed Game</title>
+</head>
+
+<body style="background-color: #000000;color:white; font-family: Copperplate">
+     <div id="header" class="text-center mt-0 pt-3">
+     	 <h2 >Type-Speed </h2>
+
+     </div>
+
+  	
+
+	<div class="container pb-2 ">
+		<div class="row justify-content-center">
+			<div class="col-md-2 col-3 text-center">
+				  <button onclick="easyMode()"   id="easy" style="background-color:#45AB92">Easy</button>
+		    </div>
+		    <div class="col-md-2 col-3 text-center"><button onclick="mediumMode()"  id="medium " style="background-color:  #5E813F">Medium</button></div>
+		    <div class="col-md-2 col-3 text-center">
+		    	<button  onclick="hardMode()"  id="hard " style="background-color: #1B302B;">Hard</button>
+					
+		    </div>
+				
+				
+					
+		</div>
+		
+	</div>
+
+
+
+	<div class="text-center mt-5 ">
+		<span class="">Type the word in <span class="text-success" id="totalTime"> </span> seconds</span>
+		<h1 class="pt-4 "><span id="currentWord" style="color:#F9DA79;font-family:Perpetua;font-size: 2.3em;font-weight: bold;"> Ready Go! </span></h1>
+
+	</div>
+
+	<div class="container text-center py-5">
+		<div class="row justify-content-center">
+			<div  class=" col-5 py-0 my-0 ">
+				<div id="progress">
+					 <div id="bar" ></div>
+				
+				</div>
+				
+				
+			</div>
+		</div>
+		
+	</div>
+
+
+	<div class="input container pb-3 ">
+		<div class="row justify-content-center">
+			<div class="col-md-5 col-8">
+				<input  class="form-control form-control-lg" id="inputWord"  type="text" placeholder="Type the word above to start..." spellcheck="false" style="font-family:Perpetua"  >
+			</div>
+			
+		</div>
+	
+			
+	
+	
+		
+	</div>
+
+	<div class="container py-4">
+		<div class="row justify-content-center">
+			<div class="col-6 text-center">
+				<h5 id="gameDisplay"></h5>
+			</div>
+			
+		</div>
+		
+	</div>
+
+	
+
+
+	<div class="container pt-4">
+		<div class="row justify-content-center">
+            <div class= "col-5 text-center">
+			<h5>Time left: <span id="leftTime"> </span></h5>
+		     </div>
+		     <div class="col-5 text-center"> <h5>Total Score: <span id="totalScore" > </span></h5>
+		     </div>
+
+
+		
+		</div>
+		
+	</div>
+    
+
+ 	<div class="row justify-content-end pt-5 mt-5">
+ 		<div class="col-7 text-right mt-5 pt-5">
+ 			<span>Power by @dearyanyan</span>
+ 			
+ 		</div>
+ 		
+ 	</div>
+	
+		
+
+
+
+	
+  <script src="index.js">
+
+  </script>
+</body>
+
+</html>
